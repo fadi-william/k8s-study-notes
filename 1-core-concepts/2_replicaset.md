@@ -1,9 +1,15 @@
-# Core Concepts - ReplicaSet
+# Core Concepts - ReplicaSets
 
 ## Get the replicasets in the system.
 
 ```bash
 kubectl get replicasets
+```
+
+or
+
+```bash
+kubectl get rs
 ```
 
 Note the following properties:
