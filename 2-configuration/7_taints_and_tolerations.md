@@ -12,7 +12,7 @@ kubectl taint nodes node-name key=value:taint-effect
 2. PreferNoSchedule
 3. NoExecute
 
-Example
+### Example
 
 ```
 kubectl taint nodes node1 app=blue:NoSchedule
@@ -20,7 +20,7 @@ kubectl taint nodes node1 app=blue:NoSchedule
 
 ## Untained a node
 
-Example
+### Example
 
 ```
 kubectl taint nodes node1 app=blue:NoSchedule-
